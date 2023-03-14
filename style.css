@@ -164,3 +164,12 @@ margin-left:12%;
     border-radius: 6px;
     font-weight: 600;
 }
+
+footer{
+    height: 9vh;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
