@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -8,33 +7,34 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
     height:60px;
 }
 .links{
-    width: 29%;
-    margin-left: 500px;
+    width: 36%;
+    opacity: 0.8;
+    margin-right: 12%;
 }
 .links a{
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
-    margin-right: 2%;
+    margin-right: 7%;
 }
 
 .logo{
 color:#F9FAF8;
 font-size: 24px;
-margin-left: 150px;
+margin-left: 15.5%;
 font-weight: bolder;
 }
 
 .awe{
     display: flex;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
     background-color: #1F2937;
     color:white;
     align-items: center;
@@ -72,15 +72,23 @@ font-weight: bolder;
 }
 
 .squares-bod{
-text-align: center;}
+text-align: center;
+
+justify-content: center;
+}
 
 .squares{
 display: flex;
 height:200px;
 justify-content: center;
+width: 70%;
+flex-wrap: wrap;
+margin-left:12%;
 }
 .squares-bod h1{
     margin-bottom: 5vh;
+    margin-top: 2vh;
+  
 }
 .square{
     border: 4px solid rgb(90, 110, 239);
@@ -88,4 +96,13 @@ justify-content: center;
     width: 150px;
     margin-left: 5vw;
     border-radius: 8px;
+    
+}
+.square-text{
+    height:150px;
+    width: 150px;
+    margin-left: 5vw;
+    margin-top: 1vh;
+
+    
 }
